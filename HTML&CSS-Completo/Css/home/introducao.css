@@ -19,6 +19,7 @@
 }
 
 .introducao img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
@@ -49,7 +50,7 @@
   }
   .introducao {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 0 40px;
   }
   .introducao-conteudo{
     padding-bottom: 0px;
