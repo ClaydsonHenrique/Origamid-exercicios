@@ -2,13 +2,20 @@ body{
   margin: 0px;
   font-family:Arial, Helvetica, sans-serif ;
 }
-ul{
+h1, ul{
   margin: 0px;
+}
+ul{
   padding: 0px;
   list-style: none;
 }
 a{
   text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
 }
 
 .header-bg{
@@ -77,4 +84,9 @@ a{
   .header a:after{
     display: none;
   }
+}
+
+.introducao-bg{
+  background-color:#000000 ;
+  color: #ffffff;
 }
