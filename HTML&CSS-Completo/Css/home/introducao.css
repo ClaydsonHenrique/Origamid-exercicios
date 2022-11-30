@@ -41,7 +41,7 @@
     padding: 12px 16px;
   }
   .introducao h1{
-    font-size: 32px;
+    margin-bottom: 16px;
   }
   .introducao img {
     height: 300px;
@@ -56,12 +56,4 @@
   }
 }
 
-@media (max-width:1200px){
-  .introducao h1{
-    font-size: 48px;
-  }
-  .introducao p {
-    font-size: 32px;
-  }
-}
        
