@@ -21,6 +21,8 @@ img{
   display: block;
 }
 
+                    /* Estilizando header */
+ 
 .header-bg{
   background-color: #000;
 }
@@ -47,6 +49,8 @@ img{
   padding: 16px 0;
   font-size: 18px;
   position: relative;
+  font-family: 'Poppins';
+  font-weight: 400;
 }
 .header-menu a:after{
   content: "";
@@ -62,7 +66,7 @@ img{
   width: 100%;
 }
 
-
+                    /* Estilizando introdução */
 
 .introducao-bg{
   background-color:#000000 ;
@@ -95,6 +99,8 @@ img{
   margin-bottom: 32px;
   font-size: 64px;
   line-height: 1.125;
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 .introducao h1 span{
   color: #ffbb00;
@@ -104,6 +110,8 @@ img{
   font-size: 24px;
   line-height: 1.5;
   color: #b2b2b2;
+  font-family: 'Robot';
+  font-weight: 400;
 }
 
 .introducao a{
@@ -117,11 +125,15 @@ img{
   font-size: 18px;
   line-height: 1.33;
   font-weight: bold;
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 
 .introducao a:hover{
   background: linear-gradient(#ffb60d, #e59317);
 }
+
+                    /* Usando mediaquare */
 
 @media (max-width:800px){
   .introducao-bg{
